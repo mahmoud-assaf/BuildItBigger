@@ -1,0 +1,30 @@
+Warning: Google App Engine Java 7 runtime is deprecated.
+Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
+Apr 24, 2018 4:19:19 AM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+Apr 24, 2018 4:19:20 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'E:\GoogleCloudSDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'E:\BuildItBigger\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+Apr 24, 2018 4:19:20 AM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
+Apr 24, 2018 4:19:21 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (E:\BuildItBigger) is not equal to your 
+web application root (E:\BuildItBigger\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+Apr 24, 2018 4:19:21 AM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: jetty-6.1.x
+Apr 24, 2018 4:19:28 AM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Started SelectChannelConnector@localhost:8080
+Apr 24, 2018 4:19:28 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Apr 24, 2018 4:19:28 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Apr 24, 2018 4:19:28 AM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
+Apr 24, 2018 4:22:24 AM com.google.appengine.repackaged.com.google.protobuf.UnsafeUtil supportsUnsafeByteBufferOperations
+WARNING: platform method missing - proto runtime falling back to safer methods: java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.misc")
+Apr 24, 2018 4:22:24 AM com.google.appengine.repackaged.com.google.protobuf.UnsafeUtil supportsUnsafeArrayOperations
+WARNING: platform method missing - proto runtime falling back to safer methods: java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.misc")
+Apr 24, 2018 4:27:49 AM com.google.appengine.tools.development.AbstractModule shutdown
+INFO: Shutting down module instance default
+Shutting down.
